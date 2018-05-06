@@ -14,22 +14,48 @@ img {
   padding: 0;
 }
 
-.layer:nth-child(1) {
+.layer:nth-child(1) img {
   opacity: 1;
+  height: 70vw;
+  min-height: 566px;
 }
-.layer:nth-child(2) {
+.layer:nth-child(2) img {
   opacity: 1;
-  width: 10%;
+  position: fixed;
+  top: 7vw;
 }
-.layer:nth-child(3) {
+.layer:nth-child(3) img {
   opacity: 1;
+  width: 5%;
+  position: fixed;
+  top: 10vw;
+  right: 10vw;
 }
-.layer:nth-child(4) {
+  .layer:nth-child(4) img {
+    opacity: 1;
+    width: 10%;
+    position: fixed;
+    top: 37vw;
+    left: 36vw;
+  }
+.layer:nth-child(5) img {
   opacity: 1;
+  width: 115%;
+  position: fixed;
+  bottom: -22vw;
+  left: -7vw;
 }
-.layer:nth-child(5) {
+.layer:nth-child(6) img {
   opacity: 1;
+  position: fixed;
+  top: 15vw;
+  left: 15vw;
+  width: 40%;
 }
-.layer:nth-child(6) {
+.layer:nth-child(7) img {
   opacity: 1;
+  width: 115%;
+  position: fixed;
+  bottom: -32vw;
+  left: -7vw;
 }
