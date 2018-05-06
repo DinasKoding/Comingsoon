@@ -15,20 +15,21 @@ img {
 }
 
 .layer:nth-child(1) {
-  opacity: 0.45;
+  opacity: 1;
 }
 .layer:nth-child(2) {
-  opacity: 0.10;
+  opacity: 1;
+  width: 10%;
 }
 .layer:nth-child(3) {
-  opacity: 0.35;
+  opacity: 1;
 }
 .layer:nth-child(4) {
-  opacity: 0.60;
+  opacity: 1;
 }
 .layer:nth-child(5) {
-  opacity: 0.75;
+  opacity: 1;
 }
 .layer:nth-child(6) {
-  opacity: 0.90;
+  opacity: 1;
 }
