@@ -1,6 +1,7 @@
 body {
   background: #111;
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -31,13 +32,13 @@ img {
   top: 10vw;
   right: 10vw;
 }
-  .layer:nth-child(4) img {
-    opacity: 1;
-    width: 10%;
-    position: fixed;
-    top: 37vw;
-    left: 36vw;
-  }
+.layer:nth-child(4) img {
+  opacity: 1;
+  width: 10%;
+  position: fixed;
+  top: 37vw;
+  left: 36vw;
+}
 .layer:nth-child(5) img {
   opacity: 1;
   width: 115%;
@@ -54,8 +55,8 @@ img {
 }
 .layer:nth-child(7) img {
   opacity: 1;
-  width: 115%;
+  width: 120%;
   position: fixed;
   bottom: -32vw;
-  left: -7vw;
+  left: -10vw;
 }
