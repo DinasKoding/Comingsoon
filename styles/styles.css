@@ -214,7 +214,7 @@ img {
     opacity: 1;
     width: 115%;
     position: fixed;
-    bottom: 14vw;
+    bottom: 9vw;
     left: -7vw;
   }
   .layer:nth-child(6) img {
@@ -228,7 +228,7 @@ img {
     opacity: 1;
     width: 120%;
     position: fixed;
-    bottom: 18vw;
+    bottom: 13vw;
     left: -10vw;
     animation: seamove 8s ease-out infinite;
     transform-origin: bottom center;
@@ -251,7 +251,7 @@ img {
     opacity: 1;
     width: 120%;
     position: fixed;
-    bottom: 1vw;
+    bottom: -4vw;
     left: -10vw;
   }
 }
