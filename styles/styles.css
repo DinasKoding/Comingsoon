@@ -171,7 +171,7 @@ img {
     left: -10vw;
   }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
   body {
     background: #FAF7D4;
     margin: 0;
@@ -229,7 +229,7 @@ img {
     width: 120%;
     position: fixed;
     bottom: 13vw;
-    left: -10vw;
+    left: 0vw;
     animation: seamove 8s ease-out infinite;
     transform-origin: bottom center;
   }
@@ -249,9 +249,16 @@ img {
   }
   .layer:nth-child(8) img {
     opacity: 1;
-    width: 120%;
+    width: 130%;
+    position: fixed;
+    bottom: -24vw;
+    left: -8vw;
+  }
+  .layer:nth-child(9) img {
+    opacity: 1;
+    width: 130%;
     position: fixed;
     bottom: -4vw;
-    left: -10vw;
+    left: -8vw;
   }
 }
