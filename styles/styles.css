@@ -207,28 +207,28 @@ img {
     opacity: 1;
     width: 10%;
     position: fixed;
-    top: 64vw;
-    left: 48vw;
+    top: 67vw;
+    left: 5vw;
   }
   .layer:nth-child(5) img {
     opacity: 1;
-    width: 115%;
+    width: 160%;
     position: fixed;
     bottom: 22vw;
-    left: -7vw;
+    left: -17vw;
   }
   .layer:nth-child(6) img {
     opacity: 1;
     position: fixed;
     top: 45vw;
-    left: 16vw;
-    width: 45%;
+    left: 10vw;
+    width: 50%;
   }
   .layer:nth-child(7) img {
     opacity: 1;
     width: 120%;
     position: fixed;
-    bottom: 25vw;
+    bottom: 23vw;
     left: -6vw;
     animation: seamove 8s ease-out infinite;
     transform-origin: bottom center;
@@ -249,17 +249,18 @@ img {
   }
   .layer:nth-child(8) img {
     opacity: 1;
-    width: 120%;
+    width: 140%;
     position: fixed;
-    bottom: -10vw;
-    left: -10vw;
+    bottom: -9vw;
+    left: -17vw;
   }
   .layer:nth-child(9) img {
     opacity: 1;
-    width: 120%;
+    width: 140%;
+    height: 33vw;
     position: fixed;
-    bottom: 7vw;
-    left: -10vw;
+    bottom: 8vw;
+    left: -17vw;
     -ms-transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
