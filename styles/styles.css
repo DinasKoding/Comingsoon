@@ -125,7 +125,7 @@ img {
     left: -10vw;
   }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:431px) {
   .layer:nth-child(1) img {
     height: 70vw;
     min-height: 566px;
@@ -163,99 +163,26 @@ img {
     bottom: -9vw;
     left: -17vw;
   }
-  .layer:nth-child(9) img {
-    width: 140%;
-    height: 33vw;
-    bottom: 8vw;
-    left: -17vw;
-  }
 }
 @media screen and (max-width:376px) {
-  .layer:nth-child(1) img {
-    height: 70vw;
-    min-height: 566px;
-  }
-  .layer:nth-child(2) img {
-    top: 15vw;
-  }
-  .layer:nth-child(3) img {
-    width: 5%;
-    top: 18vw;
-    right: 10vw;
-  }
   .layer:nth-child(4) img {
-    width: 10%;
     top: 39vw;
-    left: 7vw;
-  }
-  .layer:nth-child(5) img {
-    width: 160%;
-    bottom: 22vw;
-    left: -17vw;
   }
   .layer:nth-child(6) img {
     top: 58vw;
     left: 4vw;
-    width: 48%;
-  }
-  .layer:nth-child(7) img {
-    width: 120%;
-    bottom: 23vw;
-    left: -6vw;
-  }
-  .layer:nth-child(8) img {
-    width: 140%;
-    bottom: -9vw;
-    left: -17vw;
-  }
-  .layer:nth-child(9) img {
-    width: 140%;
-    height: 33vw;
-    bottom: 8vw;
-    left: -17vw;
   }
 }
 @media screen and (max-width:334px) {
-  .layer:nth-child(1) img {
-    height: 70vw;
-    min-height: 566px;
-  }
   .layer:nth-child(2) img {
     top: 15vw;
   }
-  .layer:nth-child(3) img {
-    width: 5%;
-    top: 18vw;
-    right: 10vw;
-  }
   .layer:nth-child(4) img {
-    width: 10%;
     top: 67vw;
-    left: 7vw;
-  }
-  .layer:nth-child(5) img {
-    width: 160%;
-    bottom: 22vw;
-    left: -17vw;
   }
   .layer:nth-child(6) img {
     top: 38vw;
     left: 12vw;
     width: 55%;
-  }
-  .layer:nth-child(7) img {
-    width: 120%;
-    bottom: 23vw;
-    left: -6vw;
-  }
-  .layer:nth-child(8) img {
-    width: 140%;
-    bottom: -9vw;
-    left: -17vw;
-  }
-  .layer:nth-child(9) img {
-    width: 140%;
-    height: 33vw;
-    bottom: 8vw;
   }
 }
