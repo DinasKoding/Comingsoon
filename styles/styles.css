@@ -102,6 +102,95 @@ img {
     top: 19vw;
   }
 }
+@media screen and (orientation: portrait) {
+  .layer:nth-child(9) img {
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+}
+@media screen and (min-width: 375px) and (orientation: portrait) {
+  .layer:nth-child(2) img {
+    top: 22vw;
+  }
+  .layer:nth-child(3) img {
+    /* roket */
+    width: 4%;
+    top: 33vw;
+  }
+  .layer:nth-child(4) img {
+    /* burung */
+    width: 10%;
+    top: 58vw;
+    left: 13vw;
+  }
+  .layer:nth-child(6) img {
+    /* comingsoon */
+    width: 50%;
+    top: 34vw;
+    left: 17vw;
+  }
+  .layer:nth-child(5) img {
+    /* jembatan */
+    width: 142%;
+    bottom: -30vw;
+  }
+  .layer:nth-child(7) img {
+    width: 130%;
+    left: -5vw;
+    bottom: -32vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    width: 130%;
+    bottom: -64vw;
+  }
+  .layer:nth-child(9) img {
+    width: 120%;
+    bottom: -45vw;
+  }
+}
+@media screen and (min-width: 500px) and (orientation: portrait) {
+  .layer:nth-child(2) img {
+    top: 22vw;
+  }
+  .layer:nth-child(3) img {
+    /* roket */
+    width: 4%;
+    top: 23vw;
+  }
+  .layer:nth-child(4) img {
+    /* burung */
+    width: 10%;
+    top: 48vw;
+    left: 13vw;
+  }
+  .layer:nth-child(6) img {
+    /* comingsoon */
+    width: 50%;
+    top: 24vw;
+    left: 17vw;
+  }
+  .layer:nth-child(5) img {
+    /* jembatan */
+    width: 142%;
+    bottom: -50vw;
+  }
+  .layer:nth-child(7) img {
+    width: 130%;
+    left: -5vw;
+    bottom: -52vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    width: 130%;
+    bottom: -84vw;
+  }
+  .layer:nth-child(9) img {
+    width: 120%;
+    bottom: -65vw;
+  }
+}
 @media screen and (max-width:431px) {
   .layer:nth-child(1) img {
     height: 70vw;
@@ -146,9 +235,6 @@ img {
     position: fixed;
     bottom: 8vw;
     left: -17vw;
-    -ms-transform: rotate(-2deg);
-    -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
   }
 }
 @media screen and (max-width:376px) {
