@@ -12,46 +12,53 @@ img {
 .scene {
   max-height: 800px;
   margin: 0 auto;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .layer:nth-child(1) img {
+  /* background */
   height: 70vw;
   min-height: 566px;
 }
 .layer:nth-child(2) img {
+  /* awan */
   position: fixed;
-  top: 7vw;
+  top: 6vw;
 }
 .layer:nth-child(3) img {
-  width: 5%;
+  /* roket */
+  width: 3%;
   position: fixed;
-  top: 10vw;
-  right: 10vw;
+  top: 5vw;
+  right: 8vw;
 }
 .layer:nth-child(4) img {
-  width: 10%;
+  /* burung */
+  width: 7%;
   position: fixed;
-  top: 37vw;
-  left: 36vw;
+  top: 7vw;
+  left: 6vw;
 }
 .layer:nth-child(5) img {
-  width: 115%;
+  /* jembatan */
+  width: 80%;
   position: fixed;
-  bottom: -22vw;
-  left: -7vw;
+  bottom: 15vw;
+  left: -5.1vw;
 }
 .layer:nth-child(6) img {
+  /* comingsoon */
   position: fixed;
-  top: 15vw;
-  left: 15vw;
+  top: 5vw;
+  left: 43vw;
   width: 40%;
 }
 .layer:nth-child(7) img {
-  width: 120%;
+  /* kapal */
+  width: 110%;
   position: fixed;
-  bottom: -15vw;
-  left: -10vw;
+  bottom: 12.5vw;
+  left: 50vw;
 
   animation: seamove 8s ease-out infinite;
   transform-origin: bottom center;
@@ -63,66 +70,36 @@ img {
   100% { -webkit-transform: rotate(0); }
 }
 .layer:nth-child(8) img {
+  /* banyu bawah */
   width: 120%;
+  /* height: 36%; */
   position: fixed;
   bottom: -32vw;
   left: -10vw;
 }
 .layer:nth-child(9) img {
-  width: 140%;
+  /* banyu pucuk */
+  width: 120%;
   height: 33vw;
   position: fixed;
-  bottom: 8vw;
-  left: -17vw;
-  -ms-transform: rotate(-2deg);
-  -webkit-transform: rotate(-2deg);
-  transform: rotate(-2deg);
+  bottom: -3vw;
+  left: -10vw;
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
-@media screen and (max-width:768px) {
-  .layer:nth-child(1) img {
-    height: 70vw;
-    min-height: 566px;
-  }
-
+@media screen and (max-width:740px) {
   .layer:nth-child(2) img {
-    top: 23vw;
+    top: 20vw;
   }
-
   .layer:nth-child(3) img {
-    width: 5%;
-    top: 23vw;
-    right: 10vw;
+    top: 19vw;
   }
-
   .layer:nth-child(4) img {
-    width: 10%;
-    top: 54vw;
-    left: 46vw;
+    top: 21vw;
   }
-
-  .layer:nth-child(5) img {
-    width: 115%;
-    bottom: -7vw;
-    left: -7vw;
-  }
-
   .layer:nth-child(6) img {
-    top: 35vw;
-    left: 16vw;
-    width: 40%;
-  }
-
-  .layer:nth-child(7) img {
-    width: 120%;
-    bottom: -0vw;
-    left: -10vw;
-  }
-
-
-  .layer:nth-child(8) img {
-    width: 120%;
-    bottom: -17vw;
-    left: -10vw;
+    top: 19vw;
   }
 }
 @media screen and (max-width:431px) {
@@ -159,9 +136,19 @@ img {
     left: -6vw;
   }
   .layer:nth-child(8) img {
-    width: 140%;
-    bottom: -9vw;
+    width: 245%;
+    bottom: -35vw;
     left: -17vw;
+  }
+  .layer:nth-child(9) img {
+    width: 140%;
+    height: 33vw;
+    position: fixed;
+    bottom: 8vw;
+    left: -17vw;
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
   }
 }
 @media screen and (max-width:376px) {
