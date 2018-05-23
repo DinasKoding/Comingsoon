@@ -151,44 +151,83 @@ img {
   }
 }
 @media screen and (min-width: 500px) and (orientation: portrait) {
-  .layer:nth-child(2) img {
-    top: 22vw;
-  }
   .layer:nth-child(3) img {
     /* roket */
-    width: 4%;
     top: 23vw;
   }
   .layer:nth-child(4) img {
     /* burung */
-    width: 10%;
     top: 48vw;
-    left: 13vw;
   }
   .layer:nth-child(6) img {
     /* comingsoon */
-    width: 50%;
     top: 24vw;
-    left: 17vw;
   }
   .layer:nth-child(5) img {
     /* jembatan */
-    width: 142%;
-    bottom: -50vw;
+    bottom: -60vw;
   }
   .layer:nth-child(7) img {
-    width: 130%;
-    left: -5vw;
-    bottom: -52vw;
+    bottom: -62vw;
   }
   .layer:nth-child(8) img {
     /* banyu bawah */
-    width: 130%;
-    bottom: -84vw;
+    bottom: -94vw;
   }
   .layer:nth-child(9) img {
-    width: 120%;
-    bottom: -65vw;
+    bottom: -75vw;
+  }
+}
+@media screen and (min-heigth: 1200px) and (orientation: portrait) {
+  .layer:nth-child(3) img {
+    /* roket */
+    top: 23vw;
+  }
+  .layer:nth-child(4) img {
+    /* burung */
+    top: 98vw;
+  }
+  .layer:nth-child(6) img {
+    /* comingsoon */
+    top: 24vw;
+  }
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: -80vw;
+  }
+  .layer:nth-child(7) img {
+    bottom: -82vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -124vw;
+  }
+  .layer:nth-child(9) img {
+    bottom: -95vw;
+  }
+}
+@media screen and (min-height: 1200px) and (orientation: portrait) {
+  .layer:nth-child(4) img {
+    /* burung */
+    top: 68vw;
+  }
+  .layer:nth-child(6) img {
+    /* comingsoon */
+    width: 56%;
+  }
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: -80vw;
+  }
+  .layer:nth-child(7) img {
+    bottom: -82vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -114vw;
+  }
+  .layer:nth-child(9) img {
+    bottom: -95vw;
   }
 }
 @media screen and (max-width:431px) {
