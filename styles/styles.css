@@ -181,6 +181,22 @@ img {
     bottom: -22vw;
   }
 }
+@media screen and (min-width: 334px) and (max-height: 610px) {
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: 13vw;
+  }
+  .layer:nth-child(7) img {
+    bottom: 11vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -21vw;
+  }
+  .layer:nth-child(9) img {
+    bottom: -2vw;
+  }
+}
 @media screen and (min-width: 400px) and (orientation: portrait) {
   .layer:nth-child(2) img {
     top: 22vw;
