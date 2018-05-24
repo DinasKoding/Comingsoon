@@ -8,3 +8,6 @@ v0.6
 
 v0.7  
 -tablet enhancement
+
+v0.8  
+-kapal baru telah tiba
