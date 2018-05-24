@@ -112,6 +112,10 @@ img {
     /* jembatan */
     left: -17vw;
   }
+  .layer:nth-child(9) img {
+    width: 140%;
+    left: -17vw;
+  }
 }
 @media screen and (min-width: 334px) and (orientation: portrait) {
   .layer:nth-child(2) img {
@@ -150,7 +154,6 @@ img {
     bottom: -44vw;
   }
   .layer:nth-child(9) img {
-    width: 120%;
     bottom: -25vw;
   }
 }
@@ -391,11 +394,9 @@ img {
     left: -17vw;
   }
   .layer:nth-child(9) img {
-    width: 140%;
     height: 33vw;
     position: fixed;
     bottom: 8vw;
-    left: -17vw;
   }
 }
 @media screen and (max-width:334px) {
