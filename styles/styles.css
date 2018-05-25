@@ -664,7 +664,7 @@ img {
   }
   .layer:nth-child(8) img {
     /* banyu bawah */
-    bottom: 0vw;
+    bottom: -24vw;
   }
   .layer:nth-child(9) img {
     bottom: 18vw;
