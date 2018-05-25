@@ -363,6 +363,27 @@ img {
   }
 }
 
+@media screen and (min-width: 385px) and (max-height: 690px) and (orientation: portrait) {
+  .layer:nth-child(4) img {
+    /* burung */
+    top: 62vw;
+  }
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: -15vw;
+  }
+  .layer:nth-child(7) img {
+    bottom: -17vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -48vw;
+  }
+  .layer:nth-child(9) img {
+    bottom: -30vw;
+  }
+}
+
 @media screen and (min-width: 700px) and (min-height: 1000px) and (orientation: portrait) {
   .layer:nth-child(4) img {
     /* burung */
