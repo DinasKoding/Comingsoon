@@ -402,10 +402,27 @@ img {
 @media screen and (min-width: 1200px) and (min-height: 642px) and (orientation: landscape) {
   .layer:nth-child(5) img {
     /* jembatan */
-    bottom: -2vw;
+    bottom: 10vw;
   }
   .layer:nth-child(7) img {
-    bottom: -4vw;
+    bottom: 7vw;
+  }
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -26vw;
+  }
+  .layer:nth-child(9) img {
+    bottom: -7vw;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 776px) and (orientation: landscape) {
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: -1vw;
+  }
+  .layer:nth-child(7) img {
+    bottom: -3vw;
   }
   .layer:nth-child(8) img {
     /* banyu bawah */
@@ -461,6 +478,47 @@ img {
 
   .layer:nth-child(9) img {
     bottom: -24vw;
+  }
+}
+
+@media screen and (min-width: 2000px) and (orientation: landscape) {
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: -12vw;
+  }
+
+  .layer:nth-child(7) img {
+    bottom: -16vw;
+  }
+
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -45vw;
+  }
+
+  .layer:nth-child(9) img {
+    bottom: -30vw;
+  }
+}
+
+@media screen and (min-width: 2390px) and (orientation: landscape) {
+  /* entah siapo yg punyo */
+  .layer:nth-child(5) img {
+    /* jembatan */
+    bottom: -19vw;
+  }
+
+  .layer:nth-child(7) img {
+    bottom: -23vw;
+  }
+
+  .layer:nth-child(8) img {
+    /* banyu bawah */
+    bottom: -52vw;
+  }
+
+  .layer:nth-child(9) img {
+    bottom: -37vw;
   }
 }
 

@@ -14,3 +14,6 @@ v0.8
 
 v0.9  
 -some landscape view enhancement
+
+v0.95  
+-4K ready (?)
