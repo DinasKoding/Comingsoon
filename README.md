@@ -17,3 +17,6 @@ v0.9
 
 v0.95  
 -4K ready (?)
+
+v0.96  
+-Getting closer..
