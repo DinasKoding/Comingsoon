@@ -11,3 +11,6 @@ v0.7
 
 v0.8  
 -kapal baru telah tiba
+
+v0.9
+-loader sudah dtmbahkan
