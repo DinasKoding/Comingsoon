@@ -20,3 +20,9 @@ v0.95
 
 v0.96  
 -Getting closer..
+
+v0.99  
+-Added favicon
+-Added Social Media link
+-Added ID CloudHost footer
+-Added TechPho logo as preloader
