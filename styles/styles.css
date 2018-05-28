@@ -940,7 +940,7 @@ body{
 section{
   /*background-color: blue;*/
   display: inline-block;
-  width: 100px;
+  width: 132px;
   margin-left: 1px;
 }
 
@@ -1014,5 +1014,8 @@ section{
 }
 .social .instagram a:hover{
   color:#F01475;
+}
+.social .line a:hover{
+  color:#00B900;
 }
 
