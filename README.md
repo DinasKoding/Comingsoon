@@ -28,4 +28,4 @@ v0.99
 -Added TechPho logo as preloader
 
 v0.999  
--Added tilt modal
+-Added inset modal
