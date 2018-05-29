@@ -11,25 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="shortcut icon" href="images/favicon/logo.ico" type="image/x-icon">
-
-	<!-- modal tilt -->
-	<script>
-		function setDefault(a){
-			document.getElementById(a).style.boxShadow = "inset 0 0 0 2px #424446";
-			document.getElementById(a).style.color = "#222426";
-		}
-		window.onload = setTimeout(function () {
-			setDefault("twitter");
-			setDefault("instagram");
-			setDefault("facebook");
-			setDefault("line");
-		}, 4000);
-		function setHover(id, warna){
-			document.getElementById(id).style.boxShadow = "inset 0 0 0 30px #424446";
-			document.getElementById(id).style.color = warna;
-		}
-	</script>
-	
 </head>
 <body>
 	<!-- Preloader -->
@@ -45,6 +26,7 @@
 	<div class="footerleft">
 		<section>
 		  <ul class="social">
+<<<<<<< HEAD
 		    <li>
 		      	<a onmouseover='setHover("twitter","#1DA1F2")' onmouseleave='setDefault("twitter");' id="twitter" class="ease-all" target="_blank" href="https://twitter.com/techphoria18"><i class="fab fa-twitter"></i><span class="hide-text">Twitter</span></a>
 		    </li>
@@ -56,6 +38,19 @@
 		    </li>
 		    <li>
 		      	<a onmouseover='setHover("line","#00B900")' onmouseleave='setDefault("line");' id="line" class="ease-all" target="_blank" href="http://line.me/ti/p/%40oob5672z"><i class="fab fa-line"></i><span class="hide-text">Line</span></a>
+=======
+		    <li class="twitter">
+		      <a class="ease-all" target="_blank" href="https://twitter.com/techphoria18"><i class="fab fa-twitter"></i><span class="hide-text">Twitter</span></a>
+		    </li>
+		    <li class="instagram">
+		      <a class="ease-all" target="_blank" href="https://www.instagram.com/technology.euphoria"><i class="fab fa-instagram"></i><span class="hide-text">Instagram</span></a>
+		    </li>
+		    <li class="facebook">
+		      <a class="ease-all" target="_blank" href="https://www.facebook.com/techphoria.unsri"><i class="fab fa-facebook"></i><span class="hide-text">Facebook</span></a>
+		    </li>
+		    <li class="line">
+		      <a class="ease-all" target="_blank" href="http://line.me/ti/p/%40oob5672z"><i class="fab fa-line"></i><span class="hide-text">Line</span></a>
+>>>>>>> parent of 62a37a2... v0.999
 		    </li>
 		  </ul>
 		</section>
