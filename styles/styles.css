@@ -989,12 +989,12 @@ section{
   border-radius:20px;
   
   /*background-color: #222;*/
-  -webkit-box-shadow: inset 0 0 0 2px #424446;
-  -moz-box-shadow: inset 0 0 0 2px #424446;
-  -o-box-shadow: inset 0 0 0 2px #424446;
-  -ms-box-shadow: inset 0 0 0 2px #424446;
-  box-shadow: inset 0 0 0 2px #424446;
-  color: #222426;
+  -webkit-box-shadow: inset 0 0 0 30px #424446;
+  -moz-box-shadow: inset 0 0 0 30px #424446;
+  -o-box-shadow: inset 0 0 0 30px #424446;
+  -ms-box-shadow: inset 0 0 0 30px #424446;
+  box-shadow: inset 0 0 0 30px #424446;
+  /*color: #222426;*/
 }
 
 .social li a:hover{
@@ -1002,20 +1002,18 @@ section{
   -moz-box-shadow: inset 0 0 0 2px #424446;
   -o-box-shadow: inset 0 0 0 2px #424446;
   -ms-box-shadow: inset 0 0 0 2px #424446;
-  box-shadow: inset 0 0 0 30px #424446;
+  box-shadow: inset 0 0 0 2px #424446;
 }
 
-.social .facebook a:hover{
+#facebook{
   color:#4267B2;
-  #1DA1F2
 }
-.social .twitter a:hover{
+#twitter{
   color:#1DA1F2;
 }
-.social .instagram a:hover{
+#instagram{
   color:#F01475;
 }
-.social .line a:hover{
+#line{
   color:#00B900;
 }
-

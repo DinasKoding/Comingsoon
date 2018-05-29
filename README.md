@@ -26,3 +26,6 @@ v0.99
 -Added Social Media link  
 -Added ID CloudHost footer  
 -Added TechPho logo as preloader
+
+v0.999  
+-Added tilt modal
