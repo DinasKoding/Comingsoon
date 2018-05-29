@@ -26,9 +26,6 @@ v0.99
 -Added Social Media link  
 -Added ID CloudHost footer  
 -Added TechPho logo as preloader
-<<<<<<< HEAD
 
 v0.999  
 -Added inset modal
-=======
->>>>>>> parent of 62a37a2... v0.999
