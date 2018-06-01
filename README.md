@@ -1,4 +1,6 @@
 ### Live Preview: https://dinaskoding.github.io/Comingsoon/
+![alt text](https://github.com/imambungo/myimages/raw/master/Comingsoon%20Techpho/comingsoontechpho.png)
+<img src="https://github.com/imambungo/myimages/raw/master/Comingsoon%20Techpho/320x503.png" alt="drawing" style="width: 320px;"/>
 
 ## Changelog:
 
